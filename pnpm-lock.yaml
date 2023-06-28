@@ -13,5 +13,17 @@ importers:
       '@learning/second':
         specifier: workspace:*
         version: link:../second
+    devDependencies:
+      typescript:
+        specifier: ^5.1.5
+        version: 5.1.5
 
   packages/second: {}
+
+packages:
+
+  /typescript@5.1.5:
+    resolution: {integrity: sha512-FOH+WN/DQjUvN6WgW+c4Ml3yi0PH+a/8q+kNIfRehv1wLhWONedw85iu+vQ39Wp49IzTJEsZ2lyLXpBF7mkF1g==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true

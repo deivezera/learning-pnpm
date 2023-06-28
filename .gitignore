@@ -1,6 +1,6 @@
 # compiled output
 /dist
-
+/packages/**/dist
 # Logs
 logs
 *.log

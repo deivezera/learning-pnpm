@@ -6,7 +6,8 @@
   "scripts": {
     "main:start": "pnpm -F @learning/main run start",
     "second:start": "pnpm -F @learning/second run start",
-    "start": "pnpm -r run start"
+    "start": "pnpm -r run start",
+    "main:tsc": "pnpm -r -F @learning/main run tsc"
   },
   "keywords": [],
   "author": "",
