@@ -1,0 +1,14 @@
+{
+  "name": "@learning/root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main:start": "pnpm -F @learning/main run start",
+    "second:start": "pnpm -F @learning/second run start",
+    "start": "pnpm -r run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
